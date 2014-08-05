@@ -12,37 +12,43 @@
 #endif
 
 #include <avr/io.h>
+
 #include <util/delay.h>
-#include <avr/power.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <inttypes.h>
-#include <MySerial.h>
-#include <MyLCD.h>
 #include <MeServo.h>
+#include <MyLCD.h>
 
-#define BAUDRATE 9600
-#define BAUD_PRESCALE  (((F_CPU / (BAUDRATE * 16UL))) - 1)
-#define UNIT_TIME_TICK_NS 62.5
-
-
-void roll_display(int);
-
-int main(void)
+//Simple Wait Function
+void Wait()
 {
-	UART_init(BAUD_PRESCALE);
-	
-	LCD_init(&PORTC);
-	LCD_test20x4();
-	
-	DDRD = 0xff;
-	
-	Servo_init();
-	
-	while (1) {
-		
-		UART_print_line("khuki");
-		
+	uint8_t i;
+	for(i=0;i<50;i++)
+	{
+		_delay_loop_2(0);
+		_delay_loop_2(0);
+		_delay_loop_2(0);
 	}
+
 }
 
+int main()
+{
+	Servo_init();
+	LCD_init(&PORTC);
+
+	while(1)
+	{
+
+		LCD_print_string("0");
+		Servo_move(50);   //0 degree
+		Wait();
+		LCD_print_string("90");
+		Servo_move(316);  //90 degree
+		Wait();
+		LCD_print_string("135");
+		Servo_move(425);  //135 degree
+		Wait();
+		LCD_print_string("180");
+		Servo_move(570);  //180 degree
+		Wait();
+	}
+}

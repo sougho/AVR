@@ -82,9 +82,9 @@
   </avrgcc.compiler.symbols.DefSymbols>
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
-      <Value>C:\Users\SOUMEGHO.ORADEV\Documents\Atmel Studio\6.2\MySerial\MySerial</Value>
-      <Value>C:\Users\SOUMEGHO.ORADEV\Documents\Atmel Studio\6.2\MyLCD\MyLCD</Value>
-      <Value>C:\Users\SOUMEGHO.ORADEV\Documents\Atmel Studio\6.2\MyServo\MyServo</Value>
+      <Value>../../../MyLCD/MyLCD</Value>
+      <Value>../../../MySerial/MySerial</Value>
+      <Value>../../../MyServo/MyServo</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
@@ -94,16 +94,16 @@
   <avrgcc.linker.libraries.Libraries>
     <ListValues>
       <Value>libm</Value>
-      <Value>libMyUtils1</Value>
       <Value>libMyLCD</Value>
       <Value>libMyServo</Value>
+      <Value>libMySerial</Value>
     </ListValues>
   </avrgcc.linker.libraries.Libraries>
   <avrgcc.linker.libraries.LibrarySearchPaths>
     <ListValues>
-      <Value>C:\Users\SOUMEGHO.ORADEV\Documents\Atmel Studio\6.2\MyUtils1\MyUtils1\Debug</Value>
-      <Value>C:\Users\SOUMEGHO.ORADEV\Documents\Atmel Studio\6.2\MyLCD\MyLCD\Debug</Value>
-      <Value>C:\Users\SOUMEGHO.ORADEV\Documents\Atmel Studio\6.2\MyServo\MyServo\Debug</Value>
+      <Value>../../../MyLCD/MyLCD/Debug</Value>
+      <Value>../../../MySerial/MySerial/Debug</Value>
+      <Value>../../../MyServo/MyServo/Debug</Value>
     </ListValues>
   </avrgcc.linker.libraries.LibrarySearchPaths>
   <avrgcc.assembler.general.IncludePaths>
