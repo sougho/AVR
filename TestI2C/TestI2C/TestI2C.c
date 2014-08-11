@@ -21,9 +21,9 @@
 
 uint8_t MyI2CEEPROM_test(uint8_t addr, uint8_t data) {
 	MyI2CEEPROM_init();
-	MyI2CEEPROM_write_byte(addr, 0x00, 0xcd, data);
+	MyI2CEEPROM_write_byte(addr, 0x7f, 0xff, data);
 	_delay_ms(10);
-	uint8_t ret = MyI2CEEPROM_read_byte(addr, 0x00, 0xcd);
+	uint8_t ret = MyI2CEEPROM_read_byte(addr, 0x7f, 0xff);
 	return ret;
 }
 
@@ -44,11 +44,11 @@ int main(void)
 			LCD_print_string("OK");
 		}
 		else {
-			LCD_print_string("FAILED!!!");
+			LCD_print_string("FAILED EEPROM 2");
 		}
 	}
 	else {
-		LCD_print_string("FAILED!!!");
+		LCD_print_string("FAILED EEPROM 1");
 	}
 	
     while(1)

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "MyHCSR04", "MyHCSR04\MyHCSR04.cproj", "{77D9D1C4-FA45-4ABE-B2F8-EBBDD48DE88B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77D9D1C4-FA45-4ABE-B2F8-EBBDD48DE88B}.Debug|AVR.ActiveCfg = Debug|AVR
+		{77D9D1C4-FA45-4ABE-B2F8-EBBDD48DE88B}.Debug|AVR.Build.0 = Debug|AVR
+		{77D9D1C4-FA45-4ABE-B2F8-EBBDD48DE88B}.Release|AVR.ActiveCfg = Release|AVR
+		{77D9D1C4-FA45-4ABE-B2F8-EBBDD48DE88B}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

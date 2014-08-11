@@ -361,7 +361,7 @@ END GROUP
  *(.fini0)
                 0x000003e0                _etext = .
 
-.data           0x00800060       0x2c load address 0x000003e0
+.data           0x00800060       0x42 load address 0x000003e0
                 0x00800060                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800060        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32.o
@@ -377,35 +377,35 @@ END GROUP
  *(.rodata)
  *(.rodata*)
  .rodata.str1.1
-                0x00800060       0x2b TestI2C.o
-                                 0x2e (size before relaxing)
+                0x00800060       0x41 TestI2C.o
+                                 0x44 (size before relaxing)
  *(.gnu.linkonce.d*)
-                0x0080008c                . = ALIGN (0x2)
- *fill*         0x0080008b        0x1 
-                0x0080008c                _edata = .
-                0x0080008c                PROVIDE (__data_end, .)
+                0x008000a2                . = ALIGN (0x2)
+ *fill*         0x008000a1        0x1 
+                0x008000a2                _edata = .
+                0x008000a2                PROVIDE (__data_end, .)
 
-.bss            0x0080008c        0x6
-                0x0080008c                PROVIDE (__bss_start, .)
+.bss            0x008000a2        0x6
+                0x008000a2                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
- .bss.in        0x0080008c        0x2 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
-                0x0080008c                in
- .bss.ddr       0x0080008e        0x2 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
-                0x0080008e                ddr
- .bss.port      0x00800090        0x2 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
-                0x00800090                port
+ .bss.in        0x008000a2        0x2 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
+                0x008000a2                in
+ .bss.ddr       0x008000a4        0x2 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
+                0x008000a4                ddr
+ .bss.port      0x008000a6        0x2 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
+                0x008000a6                port
  *(COMMON)
-                0x00800092                PROVIDE (__bss_end, .)
+                0x008000a8                PROVIDE (__bss_end, .)
                 0x000003e0                __data_load_start = LOADADDR (.data)
-                0x0000040c                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00000422                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x00800092        0x0
-                0x00800092                PROVIDE (__noinit_start, .)
+.noinit         0x008000a8        0x0
+                0x008000a8                PROVIDE (__noinit_start, .)
  *(.noinit*)
-                0x00800092                PROVIDE (__noinit_end, .)
-                0x00800092                _end = .
-                0x00800092                PROVIDE (__heap_start, .)
+                0x008000a8                PROVIDE (__noinit_end, .)
+                0x008000a8                _end = .
+                0x008000a8                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
  *(.eeprom*)
@@ -484,13 +484,13 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000      0xe00
+.debug_info     0x00000000      0xe02
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000      0x3fa TestI2C.o
- .debug_info    0x000003fa       0xf9 ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
- .debug_info    0x000004f3      0x53f ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
- .debug_info    0x00000a32      0x268 ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
- .debug_info    0x00000c9a      0x166 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
+ .debug_info    0x00000000      0x3fc TestI2C.o
+ .debug_info    0x000003fc       0xf9 ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
+ .debug_info    0x000004f5      0x53f ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
+ .debug_info    0x00000a34      0x268 ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
+ .debug_info    0x00000c9c      0x166 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
 
 .debug_abbrev   0x00000000      0x5fd
  *(.debug_abbrev)

@@ -5,27 +5,27 @@ Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
   0 .text         000003e0  00000000  00000000  00000094  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  1 .data         0000002c  00800060  000003e0  00000474  2**0
+  1 .data         00000042  00800060  000003e0  00000474  2**0
                   CONTENTS, ALLOC, LOAD, DATA
-  2 .bss          00000006  0080008c  0080008c  000004a0  2**0
+  2 .bss          00000006  008000a2  008000a2  000004b6  2**0
                   ALLOC
-  3 .comment      00000030  00000000  00000000  000004a0  2**0
+  3 .comment      00000030  00000000  00000000  000004b6  2**0
                   CONTENTS, READONLY
-  4 .debug_aranges 00000120  00000000  00000000  000004d0  2**0
+  4 .debug_aranges 00000120  00000000  00000000  000004e6  2**0
                   CONTENTS, READONLY, DEBUGGING
-  5 .debug_info   00000e00  00000000  00000000  000005f0  2**0
+  5 .debug_info   00000e02  00000000  00000000  00000606  2**0
                   CONTENTS, READONLY, DEBUGGING
-  6 .debug_abbrev 000005fd  00000000  00000000  000013f0  2**0
+  6 .debug_abbrev 000005fd  00000000  00000000  00001408  2**0
                   CONTENTS, READONLY, DEBUGGING
-  7 .debug_line   00000671  00000000  00000000  000019ed  2**0
+  7 .debug_line   00000671  00000000  00000000  00001a05  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_frame  0000020c  00000000  00000000  00002060  2**2
+  8 .debug_frame  0000020c  00000000  00000000  00002078  2**2
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_str    000003e6  00000000  00000000  0000226c  2**0
+  9 .debug_str    000003e6  00000000  00000000  00002284  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_loc    000004f6  00000000  00000000  00002652  2**0
+ 10 .debug_loc    000004f6  00000000  00000000  0000266a  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_ranges 000000d0  00000000  00000000  00002b48  2**0
+ 11 .debug_ranges 000000d0  00000000  00000000  00002b60  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -70,13 +70,13 @@ Disassembly of section .text:
   6a:	02 c0       	rjmp	.+4      	; 0x70 <__do_copy_data+0x10>
   6c:	05 90       	lpm	r0, Z+
   6e:	0d 92       	st	X+, r0
-  70:	ac 38       	cpi	r26, 0x8C	; 140
+  70:	a2 3a       	cpi	r26, 0xA2	; 162
   72:	b1 07       	cpc	r27, r17
   74:	d9 f7       	brne	.-10     	; 0x6c <__do_copy_data+0xc>
 
 00000076 <__do_clear_bss>:
   76:	20 e0       	ldi	r18, 0x00	; 0
-  78:	ac e8       	ldi	r26, 0x8C	; 140
+  78:	a2 ea       	ldi	r26, 0xA2	; 162
   7a:	b0 e0       	ldi	r27, 0x00	; 0
   7c:	01 c0       	rjmp	.+2      	; 0x80 <.do_clear_bss_start>
 
@@ -84,7 +84,7 @@ Disassembly of section .text:
   7e:	1d 92       	st	X+, r1
 
 00000080 <.do_clear_bss_start>:
-  80:	a2 39       	cpi	r26, 0x92	; 146
+  80:	a8 3a       	cpi	r26, 0xA8	; 168
   82:	b2 07       	cpc	r27, r18
   84:	e1 f7       	brne	.-8      	; 0x7e <.do_clear_bss_loop>
   86:	0e 94 63 00 	call	0xc6	; 0xc6 <main>
@@ -106,10 +106,10 @@ uint8_t MyI2CEEPROM_test(uint8_t addr, uint8_t data) {
   98:	d6 2f       	mov	r29, r22
 	MyI2CEEPROM_init();
   9a:	0e 94 8a 01 	call	0x314	; 0x314 <MyI2CEEPROM_init>
-	MyI2CEEPROM_write_byte(addr, 0x00, 0xcd, data);
+	MyI2CEEPROM_write_byte(addr, 0x7f, 0xff, data);
   9e:	2d 2f       	mov	r18, r29
-  a0:	4d ec       	ldi	r20, 0xCD	; 205
-  a2:	60 e0       	ldi	r22, 0x00	; 0
+  a0:	4f ef       	ldi	r20, 0xFF	; 255
+  a2:	6f e7       	ldi	r22, 0x7F	; 127
   a4:	8c 2f       	mov	r24, r28
   a6:	0e 94 8d 01 	call	0x31a	; 0x31a <MyI2CEEPROM_write_byte>
 	#else
@@ -125,9 +125,9 @@ uint8_t MyI2CEEPROM_test(uint8_t addr, uint8_t data) {
   b2:	00 c0       	rjmp	.+0      	; 0xb4 <MyI2CEEPROM_test+0x22>
   b4:	00 00       	nop
 	_delay_ms(10);
-	uint8_t ret = MyI2CEEPROM_read_byte(addr, 0x00, 0xcd);
-  b6:	4d ec       	ldi	r20, 0xCD	; 205
-  b8:	60 e0       	ldi	r22, 0x00	; 0
+	uint8_t ret = MyI2CEEPROM_read_byte(addr, 0x7f, 0xff);
+  b6:	4f ef       	ldi	r20, 0xFF	; 255
+  b8:	6f e7       	ldi	r22, 0x7F	; 127
   ba:	8c 2f       	mov	r24, r28
   bc:	0e 94 aa 01 	call	0x354	; 0x354 <MyI2CEEPROM_read_byte>
 	return ret;
@@ -199,7 +199,7 @@ int main(void)
  130:	0a c0       	rjmp	.+20     	; 0x146 <main+0x80>
 		}
 		else {
-			LCD_print_string("FAILED!!!");
+			LCD_print_string("FAILED EEPROM 2");
  132:	81 e8       	ldi	r24, 0x81	; 129
  134:	90 e0       	ldi	r25, 0x00	; 0
  136:	0e 94 56 01 	call	0x2ac	; 0x2ac <LCD_print_string>
@@ -207,8 +207,8 @@ int main(void)
 		}
 	}
 	else {
-		LCD_print_string("FAILED!!!");
- 13c:	81 e8       	ldi	r24, 0x81	; 129
+		LCD_print_string("FAILED EEPROM 1");
+ 13c:	81 e9       	ldi	r24, 0x91	; 145
  13e:	90 e0       	ldi	r25, 0x00	; 0
  140:	0e 94 56 01 	call	0x2ac	; 0x2ac <LCD_print_string>
  144:	f5 cf       	rjmp	.-22     	; 0x130 <main+0x6a>
@@ -252,8 +252,8 @@ int main(void)
 void LCD_send_char(char p_byte, char cmd_or_data) {
 	
 	*port = (p_byte  >> 4);
- 17c:	e0 91 90 00 	lds	r30, 0x0090
- 180:	f0 91 91 00 	lds	r31, 0x0091
+ 17c:	e0 91 a6 00 	lds	r30, 0x00A6
+ 180:	f0 91 a7 00 	lds	r31, 0x00A7
  184:	98 2f       	mov	r25, r24
  186:	92 95       	swap	r25
  188:	9f 70       	andi	r25, 0x0F	; 15
@@ -263,29 +263,29 @@ void LCD_send_char(char p_byte, char cmd_or_data) {
  18c:	66 23       	and	r22, r22
  18e:	41 f0       	breq	.+16     	; 0x1a0 <LCD_send_char+0x24>
 		*port &= ~(1 << PIN_RS); // RS=0
- 190:	e0 91 90 00 	lds	r30, 0x0090
- 194:	f0 91 91 00 	lds	r31, 0x0091
+ 190:	e0 91 a6 00 	lds	r30, 0x00A6
+ 194:	f0 91 a7 00 	lds	r31, 0x00A7
  198:	90 81       	ld	r25, Z
  19a:	9f 7b       	andi	r25, 0xBF	; 191
  19c:	90 83       	st	Z, r25
  19e:	07 c0       	rjmp	.+14     	; 0x1ae <LCD_send_char+0x32>
 	else
 		*port |= (1 << PIN_RS); // RS=1
- 1a0:	e0 91 90 00 	lds	r30, 0x0090
- 1a4:	f0 91 91 00 	lds	r31, 0x0091
+ 1a0:	e0 91 a6 00 	lds	r30, 0x00A6
+ 1a4:	f0 91 a7 00 	lds	r31, 0x00A7
  1a8:	90 81       	ld	r25, Z
  1aa:	90 64       	ori	r25, 0x40	; 64
  1ac:	90 83       	st	Z, r25
 	*port &= ~(1 << PIN_RW); // R/W=0
- 1ae:	e0 91 90 00 	lds	r30, 0x0090
- 1b2:	f0 91 91 00 	lds	r31, 0x0091
+ 1ae:	e0 91 a6 00 	lds	r30, 0x00A6
+ 1b2:	f0 91 a7 00 	lds	r31, 0x00A7
  1b6:	90 81       	ld	r25, Z
  1b8:	9f 7d       	andi	r25, 0xDF	; 223
  1ba:	90 83       	st	Z, r25
 	
 	*port |= (1 <<  PIN_EN); // EN = 1;
- 1bc:	e0 91 90 00 	lds	r30, 0x0090
- 1c0:	f0 91 91 00 	lds	r31, 0x0091
+ 1bc:	e0 91 a6 00 	lds	r30, 0x00A6
+ 1c0:	f0 91 a7 00 	lds	r31, 0x00A7
  1c4:	90 81       	ld	r25, Z
  1c6:	90 61       	ori	r25, 0x10	; 16
  1c8:	90 83       	st	Z, r25
@@ -301,8 +301,8 @@ void LCD_send_char(char p_byte, char cmd_or_data) {
  1d0:	00 c0       	rjmp	.+0      	; 0x1d2 <LCD_send_char+0x56>
 	_delay_us(2);
 	*port &= ~(1 << PIN_EN); // High to low to EN
- 1d2:	e0 91 90 00 	lds	r30, 0x0090
- 1d6:	f0 91 91 00 	lds	r31, 0x0091
+ 1d2:	e0 91 a6 00 	lds	r30, 0x00A6
+ 1d6:	f0 91 a7 00 	lds	r31, 0x00A7
  1da:	90 81       	ld	r25, Z
  1dc:	9f 7e       	andi	r25, 0xEF	; 239
  1de:	90 83       	st	Z, r25
@@ -315,10 +315,10 @@ void LCD_send_char(char p_byte, char cmd_or_data) {
 	_delay_us(1000);
 	
 	*port = (*(in) & 0xf0) | (p_byte & 0x0f);
- 1ec:	e0 91 90 00 	lds	r30, 0x0090
- 1f0:	f0 91 91 00 	lds	r31, 0x0091
- 1f4:	a0 91 8c 00 	lds	r26, 0x008C
- 1f8:	b0 91 8d 00 	lds	r27, 0x008D
+ 1ec:	e0 91 a6 00 	lds	r30, 0x00A6
+ 1f0:	f0 91 a7 00 	lds	r31, 0x00A7
+ 1f4:	a0 91 a2 00 	lds	r26, 0x00A2
+ 1f8:	b0 91 a3 00 	lds	r27, 0x00A3
  1fc:	9c 91       	ld	r25, X
  1fe:	8f 70       	andi	r24, 0x0F	; 15
  200:	90 7f       	andi	r25, 0xF0	; 240
@@ -330,8 +330,8 @@ void LCD_send_char(char p_byte, char cmd_or_data) {
 	*/
 	
 	*port |= (1 <<  PIN_EN); // EN = 1;
- 206:	e0 91 90 00 	lds	r30, 0x0090
- 20a:	f0 91 91 00 	lds	r31, 0x0091
+ 206:	e0 91 a6 00 	lds	r30, 0x00A6
+ 20a:	f0 91 a7 00 	lds	r31, 0x00A7
  20e:	80 81       	ld	r24, Z
  210:	80 61       	ori	r24, 0x10	; 16
  212:	80 83       	st	Z, r24
@@ -342,8 +342,8 @@ void LCD_send_char(char p_byte, char cmd_or_data) {
 	
 	_delay_us(2);
 	*port &= ~(1 << PIN_EN); // High to low to EN
- 21c:	e0 91 90 00 	lds	r30, 0x0090
- 220:	f0 91 91 00 	lds	r31, 0x0091
+ 21c:	e0 91 a6 00 	lds	r30, 0x00A6
+ 220:	f0 91 a7 00 	lds	r31, 0x00A7
  224:	80 81       	ld	r24, Z
  226:	8f 7e       	andi	r24, 0xEF	; 239
  228:	80 83       	st	Z, r24
@@ -377,23 +377,23 @@ void LCD_send_char(char p_byte, char cmd_or_data) {
 void LCD_init(volatile uint8_t *p_port) {
 	_delay_ms(1000);
 	port = p_port;
- 24a:	90 93 91 00 	sts	0x0091, r25
- 24e:	80 93 90 00 	sts	0x0090, r24
+ 24a:	90 93 a7 00 	sts	0x00A7, r25
+ 24e:	80 93 a6 00 	sts	0x00A6, r24
 	ddr = p_port -1;
  252:	fc 01       	movw	r30, r24
  254:	31 97       	sbiw	r30, 0x01	; 1
- 256:	f0 93 8f 00 	sts	0x008F, r31
- 25a:	e0 93 8e 00 	sts	0x008E, r30
+ 256:	f0 93 a5 00 	sts	0x00A5, r31
+ 25a:	e0 93 a4 00 	sts	0x00A4, r30
 	in = p_port - 2;
  25e:	02 97       	sbiw	r24, 0x02	; 2
- 260:	90 93 8d 00 	sts	0x008D, r25
- 264:	80 93 8c 00 	sts	0x008C, r24
+ 260:	90 93 a3 00 	sts	0x00A3, r25
+ 264:	80 93 a2 00 	sts	0x00A2, r24
 	*ddr = 0xff;
  268:	8f ef       	ldi	r24, 0xFF	; 255
  26a:	80 83       	st	Z, r24
 	*port &= ~(1 << PIN_EN);
- 26c:	e0 91 90 00 	lds	r30, 0x0090
- 270:	f0 91 91 00 	lds	r31, 0x0091
+ 26c:	e0 91 a6 00 	lds	r30, 0x00A6
+ 270:	f0 91 a7 00 	lds	r31, 0x00A7
  274:	80 81       	ld	r24, Z
  276:	8f 7e       	andi	r24, 0xEF	; 239
  278:	80 83       	st	Z, r24
