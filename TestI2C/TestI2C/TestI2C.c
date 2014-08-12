@@ -14,6 +14,7 @@
 #include <MySerial.h>
 #include <MyLCD.h>
 #include <stdio.h>
+#include <MyHCSR04.h>
 
 #define BAUDRATE 9600
 #define BAUD_PRESCALE  (((F_CPU / (BAUDRATE * 16UL))) - 1)
@@ -50,9 +51,13 @@ int main(void)
 	else {
 		LCD_print_string("FAILED EEPROM 1");
 	}
-	
+	char *s = (char *)malloc (16 * sizeof(char));
     while(1)
     {
-       
+		int dist  = (int) MyHCSR04_measure_pulse();
+		sprintf(s, "D: %d", dist);
+		LCD_clear();
+		LCD_print_string(s);
+       _delay_ms(500);
     }
 }

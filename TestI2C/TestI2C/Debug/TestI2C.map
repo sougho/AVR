@@ -1,11 +1,41 @@
 Archive member included because of file (symbol)
 
+d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+                              TestI2C.o (__fixsfsi)
+d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                              d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fixsfsi.o) (__fixunssfsi)
+d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                              d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fixunssfsi.o) (__fp_splitA)
+d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                              d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fixunssfsi.o) (__fp_zero)
 ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
                               TestI2C.o (UART_init)
 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
                               TestI2C.o (LCD_init)
 ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
                               TestI2C.o (MyI2CEEPROM_init)
+../../../MyHCSR04/MyHCSR04/Debug\libMyHCSR04.a(MyHCSR04.o)
+                              TestI2C.o (MyHCSR04_measure_pulse)
+d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                              ../../../MyHCSR04/MyHCSR04/Debug\libMyHCSR04.a(MyHCSR04.o) (__divsf3)
+d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                              d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(divsf3.o) (__divsf3x)
+d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                              ../../../MyHCSR04/MyHCSR04/Debug\libMyHCSR04.a(MyHCSR04.o) (__floatunsisf)
+d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                              d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(divsf3x.o) (__fp_inf)
+d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                              d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(divsf3x.o) (__fp_nan)
+d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                              d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(divsf3x.o) (__fp_pscA)
+d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                              d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(divsf3x.o) (__fp_pscB)
+d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                              d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(divsf3.o) (__fp_round)
+d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                              ../../../MyHCSR04/MyHCSR04/Debug\libMyHCSR04.a(MyHCSR04.o) (__mulsf3)
+d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                              d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(mulsf3.o) (__mulsf3x)
 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
                               ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o) (MyI2C_init)
 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
@@ -14,24 +44,80 @@ d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolcha
                               TestI2C.o (__do_copy_data)
 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
                               ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o) (__do_clear_bss)
+d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+                              TestI2C.o (malloc)
+d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
+                              TestI2C.o (sprintf)
+d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                              d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(sprintf.o) (vfprintf)
+d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                              d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strnlen_P)
+d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                              d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strnlen)
+d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(fputc.o)
+                              d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (fputc)
+d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                              d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (__ultoa_invert)
+d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_prologue.o)
+                              d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(sprintf.o) (__prologue_saves__)
+d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_epilogue.o)
+                              d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(sprintf.o) (__epilogue_restores__)
+
+Allocating common symbols
+Common symbol       size              file
+
+__brkval            0x2               d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+__flp               0x2               d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(malloc.o)
 
 Discarded input sections
 
  .bss           0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32.o
  .text          0x00000000        0x0 TestI2C.o
  .bss           0x00000000        0x0 TestI2C.o
+ .text          0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+ .bss           0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+ .text          0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .bss           0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .text          0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .bss           0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .text          0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .bss           0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_zero.o)
  .text          0x00000000        0x0 ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
  .bss           0x00000000        0x0 ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
  .text          0x00000000        0x0 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
  .bss           0x00000000        0x0 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
- .text.LCD_clear
-                0x00000000        0xa ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
  .rodata.str1.1
                 0x00000000       0x4e ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
  .text.LCD_test20x4
                 0x00000000       0x46 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
  .text          0x00000000        0x0 ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
  .bss           0x00000000        0x0 ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
+ .text          0x00000000        0x0 ../../../MyHCSR04/MyHCSR04/Debug\libMyHCSR04.a(MyHCSR04.o)
+ .bss           0x00000000        0x0 ../../../MyHCSR04/MyHCSR04/Debug\libMyHCSR04.a(MyHCSR04.o)
+ .text.MyHCSR04_init
+                0x00000000        0xa ../../../MyHCSR04/MyHCSR04/Debug\libMyHCSR04.a(MyHCSR04.o)
+ .text.MyHCSR04_trigger
+                0x00000000       0x2a ../../../MyHCSR04/MyHCSR04/Debug\libMyHCSR04.a(MyHCSR04.o)
+ .text          0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .bss           0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .text          0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .bss           0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .text          0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .bss           0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .text          0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .bss           0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .text          0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .bss           0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .text          0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .bss           0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .text          0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .bss           0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .text          0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .bss           0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .text          0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .bss           0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .text          0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .bss           0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
  .text          0x00000000        0x0 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
  .bss           0x00000000        0x0 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
  .text.MyI2C_status
@@ -81,6 +167,46 @@ Discarded input sections
                 0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.fixed
                 0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .bss           0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .text          0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
+ .bss           0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
+ .text          0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .bss           0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .text          0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .bss           0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .text          0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .bss           0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .text          0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .bss           0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .text          0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .bss           0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .text          0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_prologue.o)
+ .bss           0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_prologue.o)
+ .text.libgcc   0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_prologue.o)
+ .text          0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_epilogue.o)
+ .bss           0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.mul
+                0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc   0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_epilogue.o)
 
 Memory Configuration
 
@@ -104,6 +230,7 @@ LOAD ../../../MySerial/MySerial/Debug\libMySerial.a
 LOAD ../../../MyLCD/MyLCD/Debug\libMyLCD.a
 LOAD ../../../MyI2C/MyI2C/Debug\libMyI2C.a
 LOAD ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a
+LOAD ../../../MyHCSR04/MyHCSR04/Debug\libMyHCSR04.a
 END GROUP
 START GROUP
 LOAD d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a
@@ -201,7 +328,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000      0x3e0
+.text           0x00000000      0xfc2
  *(.vectors)
  .vectors       0x00000000       0x54 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32.o
                 0x00000000                __vector_default
@@ -284,61 +411,142 @@ END GROUP
  .text.MyI2CEEPROM_test
                 0x00000092       0x34 TestI2C.o
                 0x00000092                MyI2CEEPROM_test
- .text.main     0x000000c6       0x82 TestI2C.o
+ .text.main     0x000000c6       0xd2 TestI2C.o
                 0x000000c6                main
+ .text.avr-libc.fplib
+                0x00000198        0xa d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+                0x00000198                __fixsfsi
+ .text.avr-libc.fplib
+                0x000001a2       0x58 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                0x000001a2                __fixunssfsi
+ .text.avr-libc.fplib
+                0x000001fa       0x44 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                0x000001fa                __fp_split3
+                0x0000020a                __fp_splitA
+ .text.avr-libc.fplib
+                0x0000023e        0xe d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                0x0000023e                __fp_zero
+                0x00000240                __fp_szero
  .text.UART_init
-                0x00000148        0xe ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
-                0x00000148                UART_init
+                0x0000024c        0xe ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
+                0x0000024c                UART_init
  .text.UART_send_char
-                0x00000156        0x8 ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
-                0x00000156                UART_send_char
+                0x0000025a        0x8 ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
+                0x0000025a                UART_send_char
  .text.UART_print_line
-                0x0000015e       0x1e ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
-                0x0000015e                UART_print_line
+                0x00000262       0x1e ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
+                0x00000262                UART_print_line
  .text.LCD_send_char
-                0x0000017c       0xbc ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
-                0x0000017c                LCD_send_char
+                0x00000280       0xbc ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
+                0x00000280                LCD_send_char
  .text.LCD_init
-                0x00000238       0x74 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
-                0x00000238                LCD_init
+                0x0000033c       0x74 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
+                0x0000033c                LCD_init
  .text.LCD_print_string
-                0x000002ac       0x20 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
-                0x000002ac                LCD_print_string
+                0x000003b0       0x20 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
+                0x000003b0                LCD_print_string
  .text.LCD_gotoxy
-                0x000002cc       0x48 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
-                0x000002cc                LCD_gotoxy
+                0x000003d0       0x48 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
+                0x000003d0                LCD_gotoxy
+ .text.LCD_clear
+                0x00000418        0xa ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
+                0x00000418                LCD_clear
  .text.MyI2CEEPROM_init
-                0x00000314        0x6 ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
-                0x00000314                MyI2CEEPROM_init
+                0x00000422        0x6 ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
+                0x00000422                MyI2CEEPROM_init
  .text.MyI2CEEPROM_write_byte
-                0x0000031a       0x3a ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
-                0x0000031a                MyI2CEEPROM_write_byte
+                0x00000428       0x3a ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
+                0x00000428                MyI2CEEPROM_write_byte
  .text.MyI2CEEPROM_read_byte
-                0x00000354       0x44 ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
-                0x00000354                MyI2CEEPROM_read_byte
+                0x00000462       0x44 ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
+                0x00000462                MyI2CEEPROM_read_byte
+ .text.MyHCSR04_measure_pulse
+                0x000004a6       0x84 ../../../MyHCSR04/MyHCSR04/Debug\libMyHCSR04.a(MyHCSR04.o)
+                0x000004a6                MyHCSR04_measure_pulse
+ .text.avr-libc.fplib
+                0x0000052a        0x4 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                0x0000052a                __divsf3
+ .text.avr-libc.fplib
+                0x0000052e       0xcc d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                0x00000544                __divsf3x
+                0x00000548                __divsf3_pse
+ .text.avr-libc.fplib
+                0x000005fa       0x7a d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                0x000005fa                __floatunsisf
+                0x000005fe                __floatsisf
+ .text.avr-libc.fplib
+                0x00000674        0xc d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                0x00000674                __fp_inf
+ .text.avr-libc.fplib
+                0x00000680        0x6 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                0x00000680                __fp_nan
+ .text.avr-libc.fplib
+                0x00000686        0xe d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                0x00000686                __fp_pscA
+ .text.avr-libc.fplib
+                0x00000694        0xe d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                0x00000694                __fp_pscB
+ .text.avr-libc.fplib
+                0x000006a2       0x22 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                0x000006a2                __fp_round
+ .text.avr-libc.fplib
+                0x000006c4        0x4 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                0x000006c4                __mulsf3
+ .text.avr-libc.fplib
+                0x000006c8       0xc2 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                0x000006dc                __mulsf3x
+                0x000006e0                __mulsf3_pse
  .text.wait_for_complete
-                0x00000398        0x8 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
-                0x00000398                wait_for_complete
+                0x0000078a        0x8 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
+                0x0000078a                wait_for_complete
  .text.MyI2C_init
-                0x000003a0        0xc ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
-                0x000003a0                MyI2C_init
+                0x00000792        0xc ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
+                0x00000792                MyI2C_init
  .text.MyI2C_start
-                0x000003ac        0xa ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
-                0x000003ac                MyI2C_start
+                0x0000079e        0xa ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
+                0x0000079e                MyI2C_start
  .text.MyI2C_stop
-                0x000003b6        0x6 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
-                0x000003b6                MyI2C_stop
+                0x000007a8        0x6 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
+                0x000007a8                MyI2C_stop
  .text.MyI2C_write
-                0x000003bc        0xc ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
-                0x000003bc                MyI2C_write
+                0x000007ae        0xc ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
+                0x000007ae                MyI2C_write
  .text.MyI2C_read
-                0x000003c8       0x14 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
-                0x000003c8                MyI2C_read
-                0x000003dc                . = ALIGN (0x2)
+                0x000007ba       0x14 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
+                0x000007ba                MyI2C_read
+ .text.avr-libc
+                0x000007ce      0x24e d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x000007ce                malloc
+                0x000008fe                free
+ .text.avr-libc
+                0x00000a1c       0x44 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
+                0x00000a1c                sprintf
+ .text.avr-libc
+                0x00000a60      0x3a4 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                0x00000a60                vfprintf
+ .text.avr-libc
+                0x00000e04       0x16 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                0x00000e04                strnlen_P
+ .text.avr-libc
+                0x00000e1a       0x16 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                0x00000e1a                strnlen
+ .text.avr-libc
+                0x00000e30       0x64 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(fputc.o)
+                0x00000e30                fputc
+ .text.avr-libc
+                0x00000e94       0xbc d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                0x00000e94                __ultoa_invert
+ .text.libgcc.prologue
+                0x00000f50       0x38 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_prologue.o)
+                0x00000f50                __prologue_saves__
+ .text.libgcc.prologue
+                0x00000f88       0x36 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_epilogue.o)
+                0x00000f88                __epilogue_restores__
+                0x00000fbe                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x000003dc        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
-                0x000003dc                _exit
-                0x000003dc                exit
+ .fini9         0x00000fbe        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+                0x00000fbe                _exit
+                0x00000fbe                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -357,55 +565,85 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x000003dc        0x4 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .fini0         0x00000fbe        0x4 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x000003e0                _etext = .
+                0x00000fc2                _etext = .
 
-.data           0x00800060       0x42 load address 0x000003e0
+.data           0x00800060       0x4e load address 0x00000fc2
                 0x00800060                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800060        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32.o
  .data          0x00800060        0x0 TestI2C.o
+ .data          0x00800060        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+ .data          0x00800060        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .data          0x00800060        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .data          0x00800060        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_zero.o)
  .data          0x00800060        0x0 ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
  .data          0x00800060        0x0 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
  .data          0x00800060        0x0 ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
+ .data          0x00800060        0x0 ../../../MyHCSR04/MyHCSR04/Debug\libMyHCSR04.a(MyHCSR04.o)
+ .data          0x00800060        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .data          0x00800060        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .data          0x00800060        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .data          0x00800060        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .data          0x00800060        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .data          0x00800060        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .data          0x00800060        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .data          0x00800060        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .data          0x00800060        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .data          0x00800060        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
  .data          0x00800060        0x0 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
  .data          0x00800060        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
  .data          0x00800060        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_copy_data.o)
  .data          0x00800060        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800060        0x6 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00800060                __malloc_heap_end
+                0x00800062                __malloc_heap_start
+                0x00800064                __malloc_margin
+ .data          0x00800066        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
+ .data          0x00800066        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .data          0x00800066        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .data          0x00800066        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .data          0x00800066        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .data          0x00800066        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .data          0x00800066        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_prologue.o)
+ .data          0x00800066        0x0 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_epilogue.o)
  *(.data*)
  *(.rodata)
  *(.rodata*)
  .rodata.str1.1
-                0x00800060       0x41 TestI2C.o
-                                 0x44 (size before relaxing)
+                0x00800066       0x47 TestI2C.o
+                                 0x4a (size before relaxing)
  *(.gnu.linkonce.d*)
-                0x008000a2                . = ALIGN (0x2)
- *fill*         0x008000a1        0x1 
-                0x008000a2                _edata = .
-                0x008000a2                PROVIDE (__data_end, .)
+                0x008000ae                . = ALIGN (0x2)
+ *fill*         0x008000ad        0x1 
+                0x008000ae                _edata = .
+                0x008000ae                PROVIDE (__data_end, .)
 
-.bss            0x008000a2        0x6
-                0x008000a2                PROVIDE (__bss_start, .)
+.bss            0x008000ae        0xa
+                0x008000ae                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
- .bss.in        0x008000a2        0x2 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
-                0x008000a2                in
- .bss.ddr       0x008000a4        0x2 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
-                0x008000a4                ddr
- .bss.port      0x008000a6        0x2 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
-                0x008000a6                port
+ .bss.in        0x008000ae        0x2 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
+                0x008000ae                in
+ .bss.ddr       0x008000b0        0x2 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
+                0x008000b0                ddr
+ .bss.port      0x008000b2        0x2 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
+                0x008000b2                port
  *(COMMON)
-                0x008000a8                PROVIDE (__bss_end, .)
-                0x000003e0                __data_load_start = LOADADDR (.data)
-                0x00000422                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x008000b4        0x4 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x008000b4                __brkval
+                0x008000b6                __flp
+                0x008000b8                PROVIDE (__bss_end, .)
+                0x00000fc2                __data_load_start = LOADADDR (.data)
+                0x00001010                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x008000a8        0x0
-                0x008000a8                PROVIDE (__noinit_start, .)
+.noinit         0x008000b8        0x0
+                0x008000b8                PROVIDE (__noinit_start, .)
  *(.noinit*)
-                0x008000a8                PROVIDE (__noinit_end, .)
-                0x008000a8                _end = .
-                0x008000a8                PROVIDE (__heap_start, .)
+                0x008000b8                PROVIDE (__noinit_end, .)
+                0x008000b8                _end = .
+                0x008000b8                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
  *(.eeprom*)
@@ -444,14 +682,20 @@ END GROUP
 .stab.indexstr
  *(.stab.indexstr)
 
-.comment        0x00000000       0x30
+.comment        0x00000000       0x5c
  *(.comment)
  .comment       0x00000000       0x30 TestI2C.o
                                  0x31 (size before relaxing)
  .comment       0x00000000       0x31 ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
  .comment       0x00000000       0x31 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
  .comment       0x00000000       0x31 ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
+ .comment       0x00000000       0x31 ../../../MyHCSR04/MyHCSR04/Debug\libMyHCSR04.a(MyHCSR04.o)
  .comment       0x00000000       0x31 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
+ .comment       0x00000000       0x31 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .comment       0x00000000       0x31 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(sprintf.o)
+ .comment       0x00000030       0x2c d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                                 0x2d (size before relaxing)
+ .comment       0x00000000       0x31 d:/program files/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(fputc.o)
 
 .note.gnu.build-id
  *(.note.gnu.build-id)
@@ -468,7 +712,7 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000      0x120
+.debug_aranges  0x00000000      0x150
  *(.debug_aranges)
  .debug_aranges
                 0x00000000       0x28 TestI2C.o
@@ -479,63 +723,72 @@ END GROUP
  .debug_aranges
                 0x000000a0       0x30 ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
  .debug_aranges
-                0x000000d0       0x50 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
+                0x000000d0       0x30 ../../../MyHCSR04/MyHCSR04/Debug\libMyHCSR04.a(MyHCSR04.o)
+ .debug_aranges
+                0x00000100       0x50 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000      0xe02
+.debug_info     0x00000000     0x107a
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000      0x3fc TestI2C.o
- .debug_info    0x000003fc       0xf9 ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
- .debug_info    0x000004f5      0x53f ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
- .debug_info    0x00000a34      0x268 ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
- .debug_info    0x00000c9c      0x166 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
+ .debug_info    0x00000000      0x514 TestI2C.o
+ .debug_info    0x00000514       0xf9 ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
+ .debug_info    0x0000060d      0x53f ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
+ .debug_info    0x00000b4c      0x268 ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
+ .debug_info    0x00000db4      0x160 ../../../MyHCSR04/MyHCSR04/Debug\libMyHCSR04.a(MyHCSR04.o)
+ .debug_info    0x00000f14      0x166 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
 
-.debug_abbrev   0x00000000      0x5fd
+.debug_abbrev   0x00000000      0x72b
  *(.debug_abbrev)
- .debug_abbrev  0x00000000      0x1a4 TestI2C.o
- .debug_abbrev  0x000001a4       0x9d ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
- .debug_abbrev  0x00000241      0x1c6 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
- .debug_abbrev  0x00000407      0x107 ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
- .debug_abbrev  0x0000050e       0xef ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
+ .debug_abbrev  0x00000000      0x1e7 TestI2C.o
+ .debug_abbrev  0x000001e7       0x9d ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
+ .debug_abbrev  0x00000284      0x1c6 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
+ .debug_abbrev  0x0000044a      0x107 ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
+ .debug_abbrev  0x00000551       0xeb ../../../MyHCSR04/MyHCSR04/Debug\libMyHCSR04.a(MyHCSR04.o)
+ .debug_abbrev  0x0000063c       0xef ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
 
-.debug_line     0x00000000      0x671
+.debug_line     0x00000000      0x8c2
  *(.debug_line .debug_line.* .debug_line_end)
- .debug_line    0x00000000      0x1c7 TestI2C.o
- .debug_line    0x000001c7       0xd7 ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
- .debug_line    0x0000029e      0x1c7 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
- .debug_line    0x00000465       0xf9 ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
- .debug_line    0x0000055e      0x113 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
+ .debug_line    0x00000000      0x2a0 TestI2C.o
+ .debug_line    0x000002a0       0xd7 ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
+ .debug_line    0x00000377      0x1c7 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
+ .debug_line    0x0000053e       0xf9 ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
+ .debug_line    0x00000637      0x178 ../../../MyHCSR04/MyHCSR04/Debug\libMyHCSR04.a(MyHCSR04.o)
+ .debug_line    0x000007af      0x113 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
 
-.debug_frame    0x00000000      0x20c
+.debug_frame    0x00000000      0x268
  *(.debug_frame)
- .debug_frame   0x00000000       0x40 TestI2C.o
- .debug_frame   0x00000040       0x50 ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
- .debug_frame   0x00000090       0x90 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
- .debug_frame   0x00000120       0x68 ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
- .debug_frame   0x00000188       0x84 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
+ .debug_frame   0x00000000       0x58 TestI2C.o
+ .debug_frame   0x00000058       0x50 ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
+ .debug_frame   0x000000a8       0x90 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
+ .debug_frame   0x00000138       0x68 ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
+ .debug_frame   0x000001a0       0x44 ../../../MyHCSR04/MyHCSR04/Debug\libMyHCSR04.a(MyHCSR04.o)
+ .debug_frame   0x000001e4       0x84 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
 
-.debug_str      0x00000000      0x3e6
+.debug_str      0x00000000      0x488
  *(.debug_str)
- .debug_str     0x00000000      0x1e5 TestI2C.o
-                                0x228 (size before relaxing)
- .debug_str     0x000001e5       0x75 ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
+ .debug_str     0x00000000      0x227 TestI2C.o
+                                0x26a (size before relaxing)
+ .debug_str     0x00000227       0x75 ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
                                 0x19b (size before relaxing)
- .debug_str     0x0000025a       0x9a ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
+ .debug_str     0x0000029c       0x90 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
                                 0x216 (size before relaxing)
- .debug_str     0x000002f4       0xa0 ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
+ .debug_str     0x0000032c       0xa0 ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
                                 0x1ea (size before relaxing)
- .debug_str     0x00000394       0x52 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
+ .debug_str     0x000003cc       0x6a ../../../MyHCSR04/MyHCSR04/Debug\libMyHCSR04.a(MyHCSR04.o)
+                                0x1d9 (size before relaxing)
+ .debug_str     0x00000436       0x52 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
                                 0x199 (size before relaxing)
 
-.debug_loc      0x00000000      0x4f6
+.debug_loc      0x00000000      0x598
  *(.debug_loc)
- .debug_loc     0x00000000       0xbb TestI2C.o
- .debug_loc     0x000000bb       0x8a ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
- .debug_loc     0x00000145      0x15e ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
- .debug_loc     0x000002a3      0x1e2 ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
- .debug_loc     0x00000485       0x71 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
+ .debug_loc     0x00000000      0x145 TestI2C.o
+ .debug_loc     0x00000145       0x8a ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
+ .debug_loc     0x000001cf      0x15e ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
+ .debug_loc     0x0000032d      0x1e2 ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
+ .debug_loc     0x0000050f       0x18 ../../../MyHCSR04/MyHCSR04/Debug\libMyHCSR04.a(MyHCSR04.o)
+ .debug_loc     0x00000527       0x71 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -555,13 +808,14 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x00000000       0xd0
+.debug_ranges   0x00000000       0xf0
  *(.debug_ranges)
  .debug_ranges  0x00000000       0x18 TestI2C.o
  .debug_ranges  0x00000018       0x20 ../../../MySerial/MySerial/Debug\libMySerial.a(MySerial.o)
  .debug_ranges  0x00000038       0x38 ../../../MyLCD/MyLCD/Debug\libMyLCD.a(MyLCD.o)
  .debug_ranges  0x00000070       0x20 ../../../MyI2CEEPROM/MyI2CEEPROM/Debug\libMyI2CEEPROM.a(MyI2CEEPROM.o)
- .debug_ranges  0x00000090       0x40 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
+ .debug_ranges  0x00000090       0x20 ../../../MyHCSR04/MyHCSR04/Debug\libMyHCSR04.a(MyHCSR04.o)
+ .debug_ranges  0x000000b0       0x40 ../../../MyI2C/MyI2C/Debug\libMyI2C.a(MyI2C.o)
 
 .debug_macro
  *(.debug_macro)
