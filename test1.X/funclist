@@ -1,0 +1,18 @@
+__stringdata: SMALLCONST, 2049 0 44
+_lcd_send_char: CODE, 2208 0 86
+_chk_isr: CODE, 8 0 2200
+_delay_onesec: CODE, 2706 0 32
+_main: CODE, 2376 0 60
+_usb_init: CODE, 2672 0 34
+_delay_onesec_int: CODE, 2738 0 30
+_timer2_init_for_delay_us: CODE, 2822 0 10
+_uart_init: CODE, 2792 0 18
+__initialization: CODE, 2542 0 34
+_lcd_print_string: CODE, 2590 0 46
+_timer2_delay_us: CODE, 2436 0 56
+_uart_sendbyte: CODE, 2810 0 12
+_i2c_init: CODE, 2636 0 36
+_T0_ISR: CODE, 2768 0 24
+_uart_printline: CODE, 2492 0 50
+_lcd_init: CODE, 2294 0 82
+Total: 2854
